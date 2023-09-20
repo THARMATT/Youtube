@@ -76,7 +76,7 @@ export default function Sidebar() {
                 name === "Home" ? "bg-slate-600" : ""
               }`}
             >
-              <a href="#" className="flex items-center gap-5">
+              <a href="#" className="flex items-center gap-5 text-decoration-none">
                 {icon}
                 <span className="text-sm tracking-wider">{name}</span>{" "}
               </a>
